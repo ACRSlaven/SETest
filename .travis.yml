@@ -3,5 +3,5 @@ jdk:
  - oraclejdk8
 install: true
 script: 
-  - mvn install
+  - build.xml
 dist: trusty
