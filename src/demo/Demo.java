@@ -13,9 +13,7 @@ public class Demo {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int userInput;
-        System.out.print("Please input a positive number > ");
-        userInput = scan.nextInt();
+        int userInput = 10;
         
         while(userInput < 0){
             System.out.println("ERROR! User input invalid!");

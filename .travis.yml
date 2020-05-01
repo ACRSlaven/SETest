@@ -4,4 +4,5 @@ jdk:
 install: true
 script: 
   - build.xml
+  - src/demo/Demo.java
 dist: trusty
