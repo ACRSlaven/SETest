@@ -1,9 +1,7 @@
 language: java
 jdk: 
  - oraclejdk8
- - oraclejdk9
- - openjdk8
-before_script:
-  - composer install --no-interaction
- script: 
-  - src/demo/Demo.java
+install: true
+script: 
+  - mvn install
+dist: trusty
